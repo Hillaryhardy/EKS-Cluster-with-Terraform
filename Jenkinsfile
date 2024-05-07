@@ -1,5 +1,4 @@
 #!/usr/bin/env groovy
-#! ssh -i "jenkins-server.pem" ec2-user@16.170.238.240
 pipeline {
     agent any
     environment {
