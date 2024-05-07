@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "ht-app"
+    bucket = "ht-bucket-app"
     region = "eu-north-1"
     key = "eks/terraform.tfstate"
   }
